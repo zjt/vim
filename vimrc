@@ -6,6 +6,7 @@
 " git pull
 " git commit -m 'I made a change'
 " git push
+"
 
 "
 " XXX TUTORIAL
@@ -303,4 +304,5 @@ set spell
 nnoremap <leader>f 1z=
 nnoremap <leader>s :set spell!
 
+" allows me to use '.' on a block of text
 vnoremap . :norm.<CR>
